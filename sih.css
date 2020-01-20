@@ -1,0 +1,35 @@
+body{    
+    margin:0%;
+    background:url(../../../wallpapers/gradient_color_shades_140497_3840x2160.jpg);
+    background-size:cover;
+    color:white;
+}
+table{
+    margin: auto;
+    margin-top: 5%;
+    border: 2px solid black;
+    border-radius: 2rem 2rem 2rem 2rem;
+    background-color: rgb(1,1,1,0.6);
+}
+td{
+    text-align: center;
+}
+button{
+    height:50px;
+    width: 100px;
+    color: whitesmoke;
+    background-color: midnightblue;
+    border: none;
+    border-radius: 2rem;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: midnightblue;
+}
+input,select{
+    height: 40px;
+    width: 80%;
+    padding:1%;
+    border:solid white;
+    border-radius: 2rem;
+}

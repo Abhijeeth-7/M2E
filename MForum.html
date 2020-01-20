@@ -1,0 +1,51 @@
+<html>
+    <title>Forum for mentors</title>
+    <link href="forum.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="sih.css";>
+    <style>
+        .content{
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        textarea{
+            border:solid white;
+            resize: none;
+            height:30%;
+            color:darkslategray;
+        }
+        button{
+            border-radius: 0px;
+            border:1px solid;
+            align-self: flex-end;
+            height: 5.3%;
+            position: absolute;
+            top:43.5%;
+        }
+    </style>
+    <body>
+        <div class="top-nav">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">HOW IT WORKS</a>
+                <a href="#">CONTACT US</a>
+                <a href="#">LOGOUT</a>
+        </div>
+        <div class="row2">
+        <div class="side-bar">
+                <img src="male1.png">
+                <p id="namee">[USERNAME]</p>
+                <a href="dashboard.html">DASHBOARD</a>
+                <a href="MProfile.html">PROFILE</a>
+                <a href="MForum.html">FORUM</a>
+                <a href="frame.html">REQUESTS</a>
+            </div>
+            <div class="content">
+            <h3>Forums</h3>
+            <textarea placeholder="write here.....!"></textarea>
+            <button type="submit">POST</button>
+            </div>
+        </div>
+        </body>
+</html>
